@@ -11,7 +11,7 @@ app.get("/health", (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  res.send("Welcome to my appication site :)");
+  res.send("Thank you for being you. I adore you, now and always :)");
 });
 
 app.listen(PORT, () => {
